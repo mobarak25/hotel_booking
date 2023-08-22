@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="meta description" />
+
+    <!-- Site title -->
+    <title>CrashPad - Travel and Hotel booking HTML Template</title>
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gantari:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Icofont CSS -->
+    <link href="assets/css/icofont.min.css" rel="stylesheet" />
+    <!-- Plugins CSS -->
+    <link href="assets/css/plugins.css" rel="stylesheet" />
+    <!-- Main Style CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="destination-body">
+    <!-- Header Top Section Start -->
+    <section class="header-top">
+      <i class="icofont-long-arrow-right"></i>
+      <span class="paragraph-1"
+        >Love gears up for adventure <a href="#">Book your trip</a></span
+      >
+    </section>
+    <!-- Header Top Section End -->
+
+    <!-- Header Section Start -->
+    <header class="header">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <a href="#">
+              <img src="assets/img/logo/logo.png" alt="logo" />
+            </a>
+          </div>
+
+          <div class="main-nav">
+            <ul class="main-nav-list d-flex">
+              <li>
+                <a href="#">Destinations</a>
+              </li>
+              <li>
+                <a href="#">Tour</a>
+              </li>
+              <li>
+                <a href="#">Meetings & Events</a>
+              </li>
+              <li>
+                <a href="#">Restaurants & Bars</a>
+              </li>
+              <li>
+                <a href="#">Offers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header-right">
+            <a class="help paragraph-2" href="#">Help?</a>
+            <a class="btn-common btn-big" href="#">
+              <img src="assets/img/svg_icons/user.svg" alt="user" />
+              My Account</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Banner Section Start -->
+    <section class="search-banner">
+      <div class="position-relative">
+        <img
+          class="img-fluid"
+          src="assets/img/banner/destination_banner.png"
+          alt="banner"
+        />
+
+        <div class="search-wrapper">
+          <div class="container">
+            <div class="home-banner-caption text-center">
+              <h1 class="color-white">Find your Destinations</h1>
+            </div>
+            <div
+              class="search-container d-flex flex-wrap justify-content-between"
+            >
+              <!-- Destination Start-->
+              <div class="search-item d-flex align-items-center">
+                <div class="icon flex-shrink-0 pe-2">
+                  <img src="assets/img/svg_icons/location.svg" alt="Icon" />
+                </div>
+                <div class="d-flex flex-column flex-grow-1">
+                  <label class="paragraph-2 fw-light color-gray"
+                    >Destination</label
+                  >
+                  <input
+                    class="field paragraph-2"
+                    type="text"
+                    placeholder="City, airport, region, landmark or other"
+                  />
+                </div>
+              </div>
+              <!-- Destination End-->
+
+              <!-- Check-in Check-out Start-->
+              <div
+                class="search-item d-flex align-items-center justify-content-between"
+              >
+                <div class="d-flex align-items-center">
+                  <div class="icon flex-shrink-0 pe-2">
+                    <img src="assets/img/svg_icons/calendar.svg" alt="Icon" />
+                  </div>
+                  <div class="d-flex flex-column flex-grow-1">
+                    <label class="paragraph-2 fw-light color-gray"
+                      >Check-in</label
+                    >
+                    <input
+                      class="field paragraph-2"
+                      type="text"
+                      placeholder="Select date"
+                    />
+                  </div>
+                </div>
+
+                <div class="selected-date caption">
+                  <span>0 night</span>
+                </div>
+
+                <div class="d-flex align-items-center">
+                  <div class="icon flex-shrink-0 pe-2">
+                    <img src="assets/img/svg_icons/calendar.svg" alt="Icon" />
+                  </div>
+                  <div class="d-flex flex-column flex-grow-1">
+                    <label class="paragraph-2 fw-light color-gray"
+                      >Check-in</label
+                    >
+                    <input
+                      class="field paragraph-2"
+                      type="text"
+                      placeholder="Select date"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Check-in Check-out End-->
+
+              <!-- Rooms and Guests Start-->
+              <div class="search-item rooms d-flex align-items-center">
+                <div class="icon flex-shrink-0 pe-2">
+                  <img src="assets/img/svg_icons/location.svg" alt="Icon" />
+                </div>
+                <div class="d-flex flex-column flex-grow-1">
+                  <label class="paragraph-2 fw-light color-gray"
+                    >Rooms and Guests</label
+                  >
+                  <input
+                    class="field paragraph-2"
+                    type="text"
+                    placeholder="1 Room, 2 adults, 1 child"
+                  />
+                </div>
+              </div>
+              <!-- Rooms and Guests End-->
+
+              <button class="btn-big btn-search" type="submit">
+                <img
+                  class="pe-2"
+                  src="assets/img/svg_icons/searchnormal.svg"
+                  alt="search icon"
+                />
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Top Destinations Start-->
+    <section class="dastination text-center">
+      <div class="container">
+        <h2>Top Destinations</h2>
+        <p class="subtitle paragraph-1 color-gray">
+          Whether staying for business or leisure, discover our most inspiring
+          properties all around the world.
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="destination-card">
+              <div class="destination-image">
+                <img
+                  src="assets/img/destination/las_vegas_big.png"
+                  alt="Las Vegas"
+                />
+              </div>
+              <div class="destination-content pt-4">
+                <h3 class="pb-2 fw-medium">Las Vegas</h3>
+                <p class="paragraph-1 pb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  id neque sit amet
+                </p>
+                <a href="#" class="btn-big btn-no-bg rounded-3"
+                  >Discover Room</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="destination-card">
+              <div class="destination-image">
+                <img
+                  src="assets/img/destination/new_york_big.png"
+                  alt="Las Vegas"
+                />
+              </div>
+              <div class="destination-content pt-4">
+                <h3 class="pb-2 fw-medium">New York</h3>
+                <p class="paragraph-1 pb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  id neque sit amet
+                </p>
+                <a href="#" class="btn-big btn-no-bg rounded-3"
+                  >Discover Room</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="destination-card">
+              <div class="destination-image">
+                <img
+                  src="assets/img/destination/london_big.png"
+                  alt="Las Vegas"
+                />
+              </div>
+              <div class="destination-content pt-4">
+                <h3 class="pb-2 fw-medium">London</h3>
+                <p class="paragraph-1 pb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  id neque sit amet
+                </p>
+                <a href="#" class="btn-big btn-no-bg rounded-3"
+                  >Discover Room</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="destination-card">
+              <div class="destination-image">
+                <img
+                  src="assets/img/destination/myrtle_beach_big.png"
+                  alt="Myrtle Beach"
+                />
+              </div>
+              <div class="destination-content pt-4">
+                <h3 class="pb-2 fw-medium">Myrtle Beach</h3>
+                <p class="paragraph-1 pb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  id neque sit amet
+                </p>
+                <a href="#" class="btn-big btn-no-bg rounded-3"
+                  >Discover Room</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Top Destinations End-->
+
+    <!-- Today's top deals Start-->
+    <section class="todays-top-deal">
+      <div class="container">
+        <div class="top-deal-container color-white position-relative">
+          <img src="assets/img/top_deals/deals_1.png" alt="deals" />
+          <div class="top-deal-caption">
+            <h3 class="fw-bold">Today's top deals</h3>
+            <span class="body-1"
+              >Vacations are even more rewarding with our best offers.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Today's top deals End-->
+
+    <section class="container">
+      <div class="block">
+        <div class="gullary">
+          <ul class="grid effect-2" id="grid">
+            <li>
+              <a href="#"><img src="./assets/img/gallery/1.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/2.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/3.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/4.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/5.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/6.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/7.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/8.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/9.png" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/img/gallery/10.png" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <section class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h4 class="pb-3 fw-bold">About</h4>
+
+              <ul>
+                <li>
+                  <a href="#">About Trip.com</a>
+                </li>
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Statement</a>
+                </li>
+                <li>
+                  <a href="#">About Crashpad.com Group</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4 class="pb-3 fw-bold">Other Services</h4>
+              <ul>
+                <li><a href="#">Investor Relations </a></li>
+                <li><a href="#">Crashpad.com Rewards</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">All Hotels</a></li>
+                <li><a href="#">Become a Supplier</a></li>
+                <li><a href="#">Security</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <span class="paragraph-1"
+                >Want to receive exclusive accommodation offers?<br />
+                Subscribe to our newsletter</span
+              >
+              <div class="subscribe">
+                <form action="#" method="post">
+                  <input
+                    class="field head-3 fw-semi-bold"
+                    type="text"
+                    placeholder="Email for Subscribe"
+                  />
+                  <button class="field-btn head-6" type="submit">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+
+              <div class="partner">
+                <h5 class="fw-bold">Our Partners</h5>
+                <div class="partner-items pt-2 d-flex align-items-center">
+                  <a href="#">
+                    <img
+                      src="assets/img/our_partners/partner_1.png"
+                      alt="partner_1"
+                    />
+                  </a>
+
+                  <a href="#">
+                    <img
+                      src="assets/img/our_partners/partner_2.png"
+                      alt="partner_2"
+                    />
+                  </a>
+
+                  <a href="#">
+                    <img
+                      src="assets/img/our_partners/partner_3.png"
+                      alt="partner_3"
+                    />
+                  </a>
+
+                  <a href="#">
+                    <img
+                      src="assets/img/our_partners/partner_4.png"
+                      alt="partner_4"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-btm">
+        <div class="container">
+          <div
+            class="d-flex justify-content-between flex-wrap align-items-center"
+          >
+            <div class="social d-flex">
+              <!-- <img src="assets/img/social_icons/facebook.svg" alt="facebook" /> -->
+              <a class="social-item" href="#">
+                <span class="social-icon">
+                  <svg
+                    width="11"
+                    height="18"
+                    viewBox="0 0 11 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9964 0.505747C10.9964 0.373182 10.9437 0.246047 10.85 0.15231C10.7563 0.0585721 10.6291 0.00591088 10.4966 0.00591088H7.99737C6.73891 -0.0567777 5.50679 0.381179 4.57022 1.22409C3.63365 2.067 3.06878 3.24634 2.99901 4.50443V7.20355H0.499836C0.367271 7.20355 0.240136 7.25621 0.146399 7.34995C0.0526612 7.44368 0 7.57082 0 7.70338V10.3025C0 10.4351 0.0526612 10.5622 0.146399 10.656C0.240136 10.7497 0.367271 10.8024 0.499836 10.8024H2.99901V17.5002C2.99901 17.6327 3.05168 17.7599 3.14541 17.8536C3.23915 17.9473 3.36629 18 3.49885 18H6.49787C6.63043 18 6.75757 17.9473 6.8513 17.8536C6.94504 17.7599 6.9977 17.6327 6.9977 17.5002V10.8024H9.61684C9.72799 10.804 9.83651 10.7685 9.92522 10.7015C10.0139 10.6345 10.0778 10.5398 10.1067 10.4325L10.8264 7.83334C10.8463 7.75949 10.849 7.68205 10.8343 7.607C10.8195 7.53195 10.7877 7.46129 10.7414 7.40045C10.695 7.33961 10.6353 7.29023 10.5669 7.25609C10.4984 7.22195 10.4231 7.20398 10.3466 7.20355H6.9977V4.50443C7.02257 4.25699 7.13877 4.0277 7.32362 3.86134C7.50847 3.69497 7.74869 3.60348 7.99737 3.60473H10.4966C10.6291 3.60473 10.7563 3.55207 10.85 3.45833C10.9437 3.36459 10.9964 3.23746 10.9964 3.10489V0.505747Z"
+                      fill="#E8F2FF"
+                    />
+                  </svg>
+                </span>
+                <span class="social-text paragraph-1">Facebook</span>
+              </a>
+              <a class="social-item" href="#">
+                <span class="social-icon">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 23 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22.1474 2.13125C21.3329 2.49214 20.458 2.73599 19.5382 2.84621C20.4765 2.28438 21.1964 1.39287 21.5358 0.331636C20.658 0.852498 19.6855 1.23095 18.6506 1.43384C17.8215 0.552076 16.6413 0 15.3342 0C12.8255 0 10.7908 2.03468 10.7908 4.54536C10.7908 4.9004 10.8318 5.24569 10.9079 5.57928C7.13016 5.38908 3.78357 3.57971 1.5421 0.83104C1.15194 1.50407 0.927602 2.28438 0.927602 3.11542C0.927602 4.69167 1.73036 6.08356 2.94863 6.89802C2.20342 6.87364 1.50309 6.66978 0.890537 6.32936V6.38789C0.890537 8.58935 2.45605 10.426 4.5356 10.8435C4.15325 10.9469 3.75236 11.0015 3.33879 11.0015C3.04617 11.0015 2.76038 10.9742 2.48336 10.9215C3.06178 12.726 4.73946 14.0409 6.7283 14.076C5.17254 15.2952 3.21296 16.0219 1.08464 16.0219C0.717892 16.0219 0.356019 16.0004 0 15.9585C2.01127 17.2489 4.39905 18 6.96435 18C15.3235 18 19.8932 11.0766 19.8932 5.07207C19.8932 4.87699 19.8884 4.67996 19.8796 4.48488C20.7672 3.84307 21.5378 3.04422 22.1454 2.13417L22.1474 2.13125Z"
+                      fill="#E8F2FF"
+                    />
+                  </svg>
+                </span>
+                <span class="social-text paragraph-1">Twitter</span>
+              </a>
+              <a class="social-item" href="#">
+                <span class="social-icon">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Group 10">
+                      <path
+                        id="Vector"
+                        d="M17.942 5.31279C17.931 4.55738 17.7911 3.80796 17.5232 3.10145C17.0544 1.895 16.0998 0.941014 14.8914 0.474C14.1927 0.211554 13.454 0.0708505 12.7064 0.0548842C11.7448 0.0119748 11.4399 0 8.999 0C6.55809 0 6.24522 6.6914e-08 5.29065 0.0548842C4.54398 0.0708505 3.80531 0.211554 3.10662 0.474C1.89816 0.941014 0.942581 1.895 0.474789 3.10145C0.211906 3.79898 0.0699689 4.53642 0.0559751 5.28185C0.0129942 6.24282 0 6.54718 0 8.98403C0 11.4209 -7.44727e-09 11.7322 0.0559751 12.6862C0.0709685 13.4326 0.211906 14.1691 0.474789 14.8686C0.943581 16.0741 1.89816 17.0281 3.10762 17.4951C3.80331 17.7665 4.54198 17.9202 5.29165 17.9441C6.25422 17.987 6.55909 18 9 18C11.4409 18 11.7538 18 12.7084 17.9441C13.455 17.9291 14.1937 17.7884 14.8934 17.526C16.1018 17.058 17.0564 16.104 17.5252 14.8985C17.7881 14.2 17.929 13.4636 17.944 12.7162C17.987 11.7562 18 11.4518 18 9.01397C17.998 6.57712 17.998 6.26777 17.942 5.31279ZM8.993 13.5923C6.44014 13.5923 4.37206 11.5277 4.37206 8.97905C4.37206 6.43043 6.44014 4.36578 8.993 4.36578C11.5439 4.36578 13.614 6.43043 13.614 8.97905C13.614 11.5277 11.5439 13.5923 8.993 13.5923ZM13.7979 5.27087C13.2011 5.27087 12.7203 4.78989 12.7203 4.19514C12.7203 3.6004 13.2011 3.11941 13.7979 3.11941C14.3926 3.11941 14.8744 3.6004 14.8744 4.19514C14.8744 4.78989 14.3926 5.27087 13.7979 5.27087Z"
+                        fill="#E8F2FF"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M8.99288 11.9758C10.6507 11.9758 11.9945 10.6341 11.9945 8.9791C11.9945 7.32408 10.6507 5.98242 8.99288 5.98242C7.3351 5.98242 5.99121 7.32408 5.99121 8.9791C5.99121 10.6341 7.3351 11.9758 8.99288 11.9758Z"
+                        fill="#E8F2FF"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <span class="social-text paragraph-1">Instagram</span>
+              </a>
+              <a class="social-item" href="#">
+                <span class="social-icon">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 18 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Group">
+                      <path
+                        id="Vector"
+                        d="M12.1504 5.39945C11.3839 5.39682 10.6245 5.54535 9.91546 5.83653C9.20647 6.12772 8.56185 6.55584 8.01848 7.09642C7.47512 7.63699 7.04369 8.27941 6.74886 8.98689C6.45403 9.69438 6.3016 10.4531 6.30029 11.2195V17.0996C6.30029 17.3383 6.39512 17.5672 6.5639 17.736C6.73269 17.9048 6.96161 17.9996 7.2003 17.9996H9.30033C9.53903 17.9996 9.76795 17.9048 9.93673 17.736C10.1055 17.5672 10.2003 17.3383 10.2003 17.0996V11.2195C10.2001 10.9469 10.2574 10.6773 10.3684 10.4283C10.4794 10.1794 10.6416 9.95655 10.8444 9.77445C11.0473 9.59234 11.2862 9.45504 11.5457 9.37148C11.8052 9.28792 12.0794 9.25999 12.3504 9.2895C12.8364 9.35071 13.283 9.58817 13.6056 9.95682C13.9282 10.3255 14.1042 10.7997 14.1004 11.2895V17.0996C14.1004 17.3383 14.1952 17.5672 14.364 17.736C14.5328 17.9048 14.7617 17.9996 15.0004 17.9996H17.1004C17.3391 17.9996 17.568 17.9048 17.7368 17.736C17.9056 17.5672 18.0004 17.3383 18.0004 17.0996V11.2195C17.9991 10.4531 17.8467 9.69438 17.5519 8.98689C17.257 8.27941 16.8256 7.63699 16.2822 7.09642C15.7389 6.55584 15.0943 6.12772 14.3853 5.83653C13.6763 5.54535 12.9168 5.39682 12.1504 5.39945Z"
+                        fill="#E8F2FF"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M3.60004 6.2998H0.900011C0.402949 6.2998 0 6.70275 0 7.19982V17.0999C0 17.597 0.402949 18 0.900011 18H3.60004C4.09711 18 4.50006 17.597 4.50006 17.0999V7.19982C4.50006 6.70275 4.09711 6.2998 3.60004 6.2998Z"
+                        fill="#E8F2FF"
+                      />
+                      <path
+                        id="Vector_3"
+                        d="M2.25003 4.50006C3.49268 4.50006 4.50006 3.49268 4.50006 2.25003C4.50006 1.00737 3.49268 0 2.25003 0C1.00737 0 0 1.00737 0 2.25003C0 3.49268 1.00737 4.50006 2.25003 4.50006Z"
+                        fill="#E8F2FF"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <span class="social-text paragraph-1">Linedin</span>
+              </a>
+            </div>
+            <div
+              class="d-flex flex-column text-end text-white paragraph-2 fw-light"
+            >
+              <span
+                >All material herein © 2021–2023 Crashpad Company Pte. Ltd. All
+                Rights Reserved.</span
+              >
+              <span>
+                Crashpad is part of booking.com, the world leader in online
+                travel & related services.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Vite Script -->
+    <script type="module" src="../main.js"></script>
+
+    <!-- All jQuery Files Include Here -->
+    <script src="assets/js/modernizr-3.6.0.js"></script>
+    <!-- Jquery Min Js -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- Popper Min Js -->
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <!-- Bootstrap Min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Plugins Js-->
+    <script src="assets/js/plugins.js"></script>
+    <!-- Active Js -->
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
