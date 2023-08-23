@@ -33,7 +33,7 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="index-tow">
     <!-- Header Top Section Start -->
     <section class="header-top">
       <i class="icofont-long-arrow-right"></i>
@@ -54,16 +54,12 @@
           </div>
 
           <div class="main-nav">
-            <ul class="main-nav-list">
-              <li>
-                <a href="#">Home</a>
-                <ul class="sub-nav">
-                  <li><a href="index.html">Home 1</a></li>
-                  <li><a href="index.html">Home 2</a></li>
-                </ul>
-              </li>
+            <ul class="main-nav-list d-flex">
               <li>
                 <a href="#">Destinations</a>
+              </li>
+              <li>
+                <a href="#">Tour</a>
               </li>
               <li>
                 <a href="#">Meetings & Events</a>
@@ -72,23 +68,7 @@
                 <a href="#">Restaurants & Bars</a>
               </li>
               <li>
-                <a href="#">Pages</a>
-                <ul class="sub-nav">
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li>
-                    <a href="booking-guest-and-room.html"
-                      >Booking Guest And Room</a
-                    >
-                  </li>
-                  <li>
-                    <a href="booking-guest-details.html"
-                      >Booking Guest Details</a
-                    >
-                  </li>
-                  <li><a href="destination.html">Destination</a></li>
-                  <li><a href="product-list.html">Product List</a></li>
-                  <li><a href="room-details.html">Room Details</a></li>
-                </ul>
+                <a href="#">Offers</a>
               </li>
             </ul>
           </div>
@@ -110,105 +90,16 @@
       <div class="position-relative">
         <img
           class="img-fluid"
-          src="assets/img/banner/home_banner.png"
+          src="assets/img/banner/home_2_banner.png"
           alt="banner"
         />
 
         <div class="search-wrapper">
           <div class="container">
             <div class="home-banner-caption text-center">
-              <span class="paragraph-1">ALL INCLUSIVE, ALL EXCLUSIVE</span>
-              <h1 class="color-dark-blue">Welcome to The Crashpad</h1>
-            </div>
-            <div
-              class="search-container d-flex flex-wrap justify-content-between"
-            >
-              <!-- Destination Start-->
-              <div class="search-item d-flex align-items-center">
-                <div class="icon flex-shrink-0 pe-2">
-                  <img src="assets/img/svg_icons/location.svg" alt="Icon" />
-                </div>
-                <div class="d-flex flex-column flex-grow-1">
-                  <label class="paragraph-2 fw-light color-gray"
-                    >Destination</label
-                  >
-                  <input
-                    class="field paragraph-2"
-                    type="text"
-                    placeholder="City, airport, region, landmark or other"
-                  />
-                </div>
-              </div>
-              <!-- Destination End-->
-
-              <!-- Check-in Check-out Start-->
-              <div
-                class="search-item d-flex align-items-center justify-content-between"
-              >
-                <div class="d-flex align-items-center">
-                  <div class="icon flex-shrink-0 pe-2">
-                    <img src="assets/img/svg_icons/calendar.svg" alt="Icon" />
-                  </div>
-                  <div class="d-flex flex-column flex-grow-1">
-                    <label class="paragraph-2 fw-light color-gray"
-                      >Check-in</label
-                    >
-                    <input
-                      class="field paragraph-2"
-                      type="text"
-                      placeholder="Select date"
-                    />
-                  </div>
-                </div>
-
-                <div class="selected-date caption">
-                  <span>0 night</span>
-                </div>
-
-                <div class="d-flex align-items-center">
-                  <div class="icon flex-shrink-0 pe-2">
-                    <img src="assets/img/svg_icons/calendar.svg" alt="Icon" />
-                  </div>
-                  <div class="d-flex flex-column flex-grow-1">
-                    <label class="paragraph-2 fw-light color-gray"
-                      >Check-in</label
-                    >
-                    <input
-                      class="field paragraph-2"
-                      type="text"
-                      placeholder="Select date"
-                    />
-                  </div>
-                </div>
-              </div>
-              <!-- Check-in Check-out End-->
-
-              <!-- Rooms and Guests Start-->
-              <div class="search-item rooms d-flex align-items-center">
-                <div class="icon flex-shrink-0 pe-2">
-                  <img src="assets/img/svg_icons/location.svg" alt="Icon" />
-                </div>
-                <div class="d-flex flex-column flex-grow-1">
-                  <label class="paragraph-2 fw-light color-gray"
-                    >Rooms and Guests</label
-                  >
-                  <input
-                    class="field paragraph-2"
-                    type="text"
-                    placeholder="1 Room, 2 adults, 1 child"
-                  />
-                </div>
-              </div>
-              <!-- Rooms and Guests End-->
-
-              <button class="btn-big btn-search" type="submit">
-                <img
-                  class="pe-2"
-                  src="assets/img/svg_icons/searchnormal.svg"
-                  alt="search icon"
-                />
-                Search
-              </button>
+              <h1 class="color-white">
+                Book Your Dream Getaway <br />Find Your Perfect Stay with Us!
+              </h1>
             </div>
           </div>
         </div>
@@ -216,335 +107,125 @@
     </section>
     <!-- Banner Section End -->
 
-    <!-- Why choose Start -->
-    <section class="why-choose">
+    <!-- Search Start -->
+    <section class="search-section">
       <div class="container">
-        <h1 class="text-center">Why choose Crashpad</h1>
-        <div class="why-choose-container mx-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="why-choose-left">
-                <h5 class="fw-semi-bold color-sky-blue">
-                  Kick off summer with
-                </h5>
-                <span class="paragraph-3 color-gray">
-                  a vacation with all your favorite people and get 20% or<br />
-                  more* off in our hotels.
-                </span>
-                <ul class="pt-3 d-flex align-items-center">
-                  <li>
-                    <a href="#">
-                      <img
-                        src="assets/img/kick_off/image_1.png"
-                        alt="Booking"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="assets/img/kick_off/image_2.png"
-                        alt="Expedia"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="assets/img/kick_off/image_3.png"
-                        alt="Priceline"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img src="assets/img/kick_off/image_4.png" alt="All" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <img
-                        src="assets/img/kick_off/image_5.png"
-                        alt="Priceline"
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        <div class="search-container d-flex flex-wrap justify-content-between">
+          <!-- Destination Start-->
+          <div class="search-item d-flex align-items-center">
+            <div class="icon flex-shrink-0 pe-2">
+              <img src="assets/img/svg_icons/location.svg" alt="Icon" />
             </div>
-            <div class="col-md-6">
-              <div class="why-choose-right">
-                <ul>
-                  <li>
-                    <img
-                      src="assets/img/svg_icons/verified.svg"
-                      alt="verified"
-                    />
-                    <span>Best Online Rates Guaranteed </span>
-                  </li>
-                  <li>
-                    <img src="assets/img/svg_icons/star.svg" alt="star" /><span
-                      >Over $2 million in savings</span
-                    >
-                  </li>
-                  <li>
-                    <img
-                      src="assets/img/svg_icons/phone.svg"
-                      alt="phone"
-                    /><span>24/7 Support</span>
-                  </li>
-                </ul>
-              </div>
+            <div class="d-flex flex-column flex-grow-1">
+              <label class="paragraph-2 fw-light color-gray">Destination</label>
+              <input
+                class="field paragraph-2"
+                type="text"
+                placeholder="City, airport, region, landmark or other"
+              />
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- Why choose End -->
+          <!-- Destination End-->
 
-    <!-- Top Destinations Start-->
-    <section class="dastination text-center">
-      <div class="container">
-        <h2>Top Destinations</h2>
-        <p class="subtitle paragraph-1 color-gray">
-          Whether staying for business or leisure, discover our most inspiring
-          properties all around the world.
-        </p>
-        <ul
-          class="home-tab nav nav-pills d-flex justify-content-center"
-          id="pills-tab"
-          role="tablist"
-        >
-          <li class="body-1 fw-medium" role="presentation">
-            <a
-              href="javascript:void(0);"
-              class="active"
-              id="pills-home-hotels"
-              data-bs-toggle="pill"
-              data-bs-target="#pills-hotels"
-              role="tab"
-              aria-controls="pills-home"
-              aria-selected="true"
-            >
-              Hotels and Resorts
-            </a>
-          </li>
-          <li class="body-1 fw-medium" role="presentation">
-            <a
-              href="javascript:void(0);"
-              id="pills-retreats-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#pills-retreats"
-              role="tab"
-              aria-controls="pills-retreats"
-              aria-selected="false"
-            >
-              Private Retreats
-            </a>
-          </li>
-        </ul>
-        <div class="home-tab-content tab-content" id="pills-tabContent">
-          <!-- Hotels and Resorts Start-->
+          <!-- Check-in Check-out Start-->
           <div
-            class="tab-pane fade show active"
-            id="pills-hotels"
-            role="tabpanel"
-            aria-labelledby="pills-hotels-tab"
+            class="search-item d-flex align-items-center justify-content-between"
           >
-            <div class="row">
-              <!-- Top Destinations Card Start-->
-              <div class="col-md-3">
-                <div class="destinations-card">
-                  <h6 class="fw-medium title">Las Vegas</h6>
-                  <img
-                    class="img-fluid"
-                    src="assets/img/destination/las_vegas.jpg"
-                    alt="destination image"
-                  />
-                  <div class="card-content">
-                    <p class="paragraph-2 fw-light">
-                      New York offers a wide range of hotels for every budget
-                      and preference,
-                    </p>
-                    <a class="btn-main" href="#">View property</a>
-                  </div>
-                </div>
+            <div class="d-flex align-items-center">
+              <div class="icon flex-shrink-0 pe-2">
+                <img src="assets/img/svg_icons/calendar.svg" alt="Icon" />
               </div>
-              <!-- Top Destinations Card End-->
+              <div class="d-flex flex-column flex-grow-1">
+                <label class="paragraph-2 fw-light color-gray">Check-in</label>
+                <input
+                  class="field paragraph-2"
+                  type="text"
+                  placeholder="Select date"
+                />
+              </div>
+            </div>
 
-              <!-- Top Destinations Card Start-->
-              <div class="col-md-3">
-                <div class="destinations-card">
-                  <h6 class="fw-medium title">New York</h6>
-                  <img
-                    class="img-fluid"
-                    src="assets/img/destination/new_york.jpg"
-                    alt="destination image"
-                  />
-                  <div class="card-content">
-                    <p class="paragraph-2 fw-light">
-                      New York offers a wide range of hotels for every budget
-                      and preference,
-                    </p>
-                    <a class="btn-main" href="#">View property</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Top Destinations Card End-->
+            <div class="selected-date caption">
+              <span>0 night</span>
+            </div>
 
-              <!-- Top Destinations Card Start-->
-              <div class="col-md-3">
-                <div class="destinations-card">
-                  <h6 class="fw-medium title">London</h6>
-                  <img
-                    class="img-fluid"
-                    src="assets/img/destination/london.jpg"
-                    alt="destination image"
-                  />
-                  <div class="card-content">
-                    <p class="paragraph-2 fw-light">
-                      New York offers a wide range of hotels for every budget
-                      and preference,
-                    </p>
-                    <a class="btn-main" href="#">View property</a>
-                  </div>
-                </div>
+            <div class="d-flex align-items-center">
+              <div class="icon flex-shrink-0 pe-2">
+                <img src="assets/img/svg_icons/calendar.svg" alt="Icon" />
               </div>
-              <!-- Top Destinations Card End-->
-
-              <!-- Top Destinations Card Start-->
-              <div class="col-md-3">
-                <div class="destinations-card">
-                  <h6 class="fw-medium title">Myrtle Beach</h6>
-                  <img
-                    class="img-fluid"
-                    src="assets/img/destination/myrtle_beach.jpg"
-                    alt="destination image"
-                  />
-                  <div class="card-content">
-                    <p class="paragraph-2 fw-light">
-                      New York offers a wide range of hotels for every budget
-                      and preference,
-                    </p>
-                    <a class="btn-main" href="#">View property</a>
-                  </div>
-                </div>
+              <div class="d-flex flex-column flex-grow-1">
+                <label class="paragraph-2 fw-light color-gray">Check-in</label>
+                <input
+                  class="field paragraph-2"
+                  type="text"
+                  placeholder="Select date"
+                />
               </div>
-              <!-- Top Destinations Card End-->
             </div>
           </div>
-          <!-- Hotels and Resorts End-->
+          <!-- Check-in Check-out End-->
 
-          <!-- Private Retreats Start-->
-          <div
-            class="tab-pane fade"
-            id="pills-retreats"
-            role="tabpanel"
-            aria-labelledby="pills-retreats-tab"
-          >
-            <div class="row">
-              <!-- Top Destinations Card Start-->
-              <div class="col-md-3">
-                <div class="destinations-card">
-                  <h6 class="fw-medium title">Las Vegas</h6>
-                  <img
-                    class="img-fluid"
-                    src="assets/img/destination/las_vegas.jpg"
-                    alt="destination image"
-                  />
-                  <div class="card-content">
-                    <p class="paragraph-2 fw-light">
-                      New York offers a wide range of hotels for every budget
-                      and preference,
-                    </p>
-                    <a class="btn-main" href="#">View property</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Top Destinations Card End-->
-
-              <!-- Top Destinations Card Start-->
-              <div class="col-md-3">
-                <div class="destinations-card">
-                  <h6 class="fw-medium title">New York</h6>
-                  <img
-                    class="img-fluid"
-                    src="assets/img/destination/new_york.jpg"
-                    alt="destination image"
-                  />
-                  <div class="card-content">
-                    <p class="paragraph-2 fw-light">
-                      New York offers a wide range of hotels for every budget
-                      and preference,
-                    </p>
-                    <a class="btn-main" href="#">View property</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Top Destinations Card End-->
-
-              <!-- Top Destinations Card Start-->
-              <div class="col-md-3">
-                <div class="destinations-card">
-                  <h6 class="fw-medium title">London</h6>
-                  <img
-                    class="img-fluid"
-                    src="assets/img/destination/london.jpg"
-                    alt="destination image"
-                  />
-                  <div class="card-content">
-                    <p class="paragraph-2 fw-light">
-                      New York offers a wide range of hotels for every budget
-                      and preference,
-                    </p>
-                    <a class="btn-main" href="#">View property</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Top Destinations Card End-->
-
-              <!-- Top Destinations Card Start-->
-              <div class="col-md-3">
-                <div class="destinations-card">
-                  <h6 class="fw-medium title">Myrtle Beach</h6>
-                  <img
-                    class="img-fluid"
-                    src="assets/img/destination/myrtle_beach.jpg"
-                    alt="destination image"
-                  />
-                  <div class="card-content">
-                    <p class="paragraph-2 fw-light">
-                      New York offers a wide range of hotels for every budget
-                      and preference,
-                    </p>
-                    <a class="btn-main" href="#">View property</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Top Destinations Card End-->
+          <!-- Rooms and Guests Start-->
+          <div class="search-item rooms d-flex align-items-center">
+            <div class="icon flex-shrink-0 pe-2">
+              <img src="assets/img/svg_icons/location.svg" alt="Icon" />
+            </div>
+            <div class="d-flex flex-column flex-grow-1">
+              <label class="paragraph-2 fw-light color-gray"
+                >Rooms and Guests</label
+              >
+              <input
+                class="field paragraph-2"
+                type="text"
+                placeholder="1 Room, 2 adults, 1 child"
+              />
             </div>
           </div>
-          <!-- Private Retreats End-->
+          <!-- Rooms and Guests End-->
+
+          <button class="btn-big btn-search" type="submit">
+            <img
+              class="pe-2"
+              src="assets/img/svg_icons/searchnormal.svg"
+              alt="search icon"
+            />
+            Search
+          </button>
         </div>
       </div>
     </section>
-    <!-- Top Destinations End-->
+    <!-- Search End -->
 
-    <!-- Today's top deals Start-->
-    <section class="todays-top-deal">
+    <section class="trusted-partner">
       <div class="container">
-        <div class="top-deal-container color-white position-relative">
-          <img src="assets/img/top_deals/deals_1.png" alt="deals" />
-          <div class="top-deal-caption">
-            <h3 class="fw-bold">Today's top deals</h3>
-            <span class="body-1"
-              >Vacations are even more rewarding with our best offers.</span
-            >
+        <div class="row">
+          <div class="col-md-5">
+            <img src="assets/img/banner/trusted_partner.png" alt="image" />
+          </div>
+          <div class="col-md-7">
+            <div class="partner-info d-flex">
+              <h2>
+                Your Trusted Partner for<br />
+                Memorable Stays
+              </h2>
+              <p>
+                We are dedicated to providing you with a seamless and
+                unforgettable travel experience. As your trusted partner for
+                booking hotels, we strive to make your journey hassle-free and
+                enjoyable.
+              </p>
+              <p>
+                Our commitment to exceptional customer service means we are here
+                for you every step of the way. From pre-booking inquiries to
+                post-stay support, our dedicated team is always ready to assist
+                you. Join us on your next adventure, and let crashpad.com take
+                care of your accommodation needs. Happy travels!
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Today's top deals End-->
 
     <!-- Featured Properties Start-->
     <section class="featured-roperties">

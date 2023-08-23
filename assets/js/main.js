@@ -2,6 +2,17 @@
 (function ($) {
   "use strict";
 
+  $(".main-nav-list > li").hover(
+    function () {
+      $(this).addClass("down");
+      $(this).children("ul").stop(true, true).slideDown("slow");
+    },
+    function () {
+      $(this).removeClass("down");
+      $(this).children("ul").slideUp("fast");
+    }
+  );
+
   $.scrollIt({
     upKey: 38, // key code to navigate to the next section
     downKey: 40, // key code to navigate to the previous section
