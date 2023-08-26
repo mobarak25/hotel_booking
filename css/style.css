@@ -572,6 +572,10 @@ h6,
   color: #fff;
 }
 
+.main-nav-list > li:hover ul {
+  display: block;
+}
+
 .search-container {
   max-width: 1250px;
   padding: 30px;
@@ -1887,4 +1891,35 @@ input[type=range]::-moz-range-thumb {
 .trusted-partner {
   padding: 95px 0;
   background-color: #e8f2ff;
+}
+
+.partner-info h2 {
+  padding-bottom: 40px;
+  line-height: 70px;
+  position: relative;
+  left: -13%;
+}
+.partner-info p {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.hospitality {
+  padding: 100px 0;
+  width: calc(50% + 748px);
+}
+.hospitality ul li img {
+  width: 100%;
+}
+.hospitality .slick-slider {
+  margin: 0 -12px;
+}
+.hospitality .slick-slide {
+  text-align: center;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.gullary {
+  margin: -12px;
 }

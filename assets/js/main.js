@@ -2,6 +2,14 @@
 (function ($) {
   "use strict";
 
+  $(window).on("load", function () {
+    $(".main-nav").load("menu.html");
+  });
+  
+  $(function(){
+      $(".main-nav").load("menu.html"); 
+    });
+
   $(".main-nav-list > li").hover(
     function () {
       $(this).addClass("down");
@@ -66,6 +74,14 @@
     slidesToShow: 3,
     slidesToScroll: 1,
     asNavFor: ".slider-for",
+    dots: false,
+    focusOnSelect: true,
+  });
+
+  $(".hospitality ul").slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+
     dots: false,
     focusOnSelect: true,
   });
